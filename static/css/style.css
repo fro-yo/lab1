@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family : covesLight;
+    src: url(../fonts/coves/coves-light.otf);
+}
+
+@font-face {
+    font-family: covesBold;
+    src: url(../fonts/coves/coves-bold.otf)
+}
+
+body {
+    /*font-family: 'Alegreya Sans', sans-serif;*/
+    /*background-color: #FFF8DC;*/
+    font-family: covesLight, sans-serif;
+}
+
+h1 {
+    line-height: 200px;
+    margin-top: -250px;
+
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    font-size: 250%;
+
+    color: #DCDCDC; /* light grey */
+    color: #FFF8DC; /* light brown */
+    color: #DEB887; /* darker brown */
+    color:#443235; /* darkest brown */
+    color: #FFFACD; /* light yellow */
+    color: white;
+}
+
+
+div {
+
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    padding: 15px;
+    font-size: 200%;
+    color: #FFFACD; /* light yellow */
+    color: white;
+}
+
+a {
+    color:inherit;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-decoration: none;
+}
